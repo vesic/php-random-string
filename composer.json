@@ -1,0 +1,17 @@
+{
+  "name": "vesic/random-string",
+  "type": "library",
+  "require": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "authors": [{
+    "name": "vesic",
+    "email": "dusan.vesic@gmail.com"
+  }],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Vesic\\RandomString\\": "src"
+    }
+  }
+}
